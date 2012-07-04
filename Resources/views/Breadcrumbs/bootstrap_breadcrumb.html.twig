@@ -1,0 +1,11 @@
+{% if trail.crumbs %}
+    <ul class="breadcrumb">
+    {% for crumb in trail.crumbs %}
+        {% if crumb.uri %}
+            <li"><a href="{{ crumb.uri }}">{{ crumb.title }}</a> <span class="divider">/</span></li>
+        {% else %}
+            <li>{{ crumb.title }} <span class="divider">/</span></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% endif %}

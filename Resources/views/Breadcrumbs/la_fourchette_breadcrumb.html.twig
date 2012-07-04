@@ -1,0 +1,19 @@
+{% if trail.crumbs %}
+    <ul>
+    {% for crumb in trail.crumbs %}
+        {% if crumb.isFirst %}
+            {% set class = ' first' %}
+        {% elseif crumb.isLast %}
+            {% set class = ' last' %}
+        {% else %}
+            {% set class = '' %}
+        {% endif %}
+
+        {% if crumb.uri %}
+            <li class="row{{ class }}"><a href="{{ crumb.uri }}">{{ crumb.title }}</a></li>
+        {% else %}
+            <li class="row{{ class }}">{{ crumb.title }}</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% endif %}

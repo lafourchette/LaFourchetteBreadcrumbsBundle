@@ -1,0 +1,15 @@
+{
+    "name": "lafourchette/breadcrumbs-bundle",
+    "description": "A simple breadcrumbs bundle",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "redpanda/breadcrumbs": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Lafourchette\\BreadcrumbsBundle": "" }
+    },
+    "target-dir": "Lafourchette/BreadcrumbsBundle"
+}
