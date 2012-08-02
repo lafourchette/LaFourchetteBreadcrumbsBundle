@@ -16,7 +16,7 @@
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-0": { "Lafourchette\\BreadcrumbsBundle": "" }
+        "psr-0": { "LaFourchette\\BreadcrumbsBundle": "" }
     },
-    "target-dir": "Lafourchette/BreadcrumbsBundle"
+    "target-dir": "LaFourchette/BreadcrumbsBundle"
 }
