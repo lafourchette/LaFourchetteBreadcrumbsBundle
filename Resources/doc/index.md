@@ -141,4 +141,4 @@ class DemoBreadcrumbsBuilder extends AbstractBuilder
 
 ## Rendering breadcrumbs
 
-    {{ la_fourchette_breacrumbs_render() }}
+    {{ la_fourchette_breadcrumbs_render() }}
