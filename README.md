@@ -1,5 +1,7 @@
 LaFourchetteBreadcrumbsBundle
-=============
+=============================
+
+[![Build Status](https://travis-ci.org/lafourchette/LaFourchetteBreadcrumbsBundle.svg)](https://travis-ci.org/lafourchette/LaFourchetteBreadcrumbsBundle)
 
 The `LaFourchetteBreadcrumbsBundle` is not yet another breadcrumbs bundle. This is a better way to create breadcrumbs without put them in your controllers!
 
